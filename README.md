@@ -9,7 +9,7 @@ docker run --name gandi-whois-checker \
            --rm \
            -e GANDI_DOMAIN="mydomain.net" \
            -e GANDI_PAT="your-pat" \
-           areg97/gandi-whois-checker:latest
+           ghcr.io/tonio6797/gandi-whois-checker:latest
 ```
 
 Authentication is required. Use either a PAT or an API key.
